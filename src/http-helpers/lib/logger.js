@@ -1,3 +1,4 @@
+
 "use strict";
 
 const useragent = require("useragent");
@@ -65,7 +66,7 @@ function logResponse(ctx) {
   }
 }
 
-/**
+/*
  * Return middleware that attach logger to context and
  * logs HTTP request/response.
  * @param {Object} options - Optional configuration
@@ -104,3 +105,4 @@ function log(options = {}) {
 }
 
 module.exports = log;
+
