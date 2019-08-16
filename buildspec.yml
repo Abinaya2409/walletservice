@@ -7,7 +7,7 @@ phases:
     commands:
     
       # Install dependencies needed for running tests
-      - cd src && npm install && cd ..
+      - cd src && npm install && mv http-helpers node_modules && cd ..
  
 artifacts:
   files:
