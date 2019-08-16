@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: src/
-    destination: /var/www/node-test
+    destination: /var/www/node-service
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh

@@ -1,2 +1,2 @@
 #!/bin/bash
-curl -m 5 http://localhost:8081
+curl -m 5 http://localhost:8082
