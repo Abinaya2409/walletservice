@@ -6,7 +6,7 @@ const configs = {
   base: {
     env,
     host: process.env.APP_HOST || "localhost",
-    port: process.env.APP_PORT || 8081
+    port: process.env.APP_PORT || 8082
   },
   production: {
     logger: {
